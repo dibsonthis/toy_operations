@@ -1,6 +1,3 @@
-# toy_operations
-This is a toy "assembly" like language created in Python. Make calculations and store results in the provided 16-bit "memory"
-
 # OVERVIEW
 
 This is a toy "assembly" like language created in Python. All you have to do is change the code below to make calculations and changes to the 16-bit "memory". Here's a quick overview:
