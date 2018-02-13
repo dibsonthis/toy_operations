@@ -1,7 +1,7 @@
 # EXAMPLE
     0x0 ADD ((EXP 10 (MUL 4 (DIV (EXP 2 2) 8))) (DIV (SUB 9 4) (DIV (MUL 8 0.32) 18)))
     
-The above code equates to 135.15625 and is stored in memory address 0x0 in our faux 16-bit memory. The use of parentheses isn't required to run this code, however it servers to make it look slightly more readable. This is the code without any touchups:
+The above code equates to 135.15625 and is stored in memory address 0x0 in our faux 16-bit memory. The use of parentheses isn't required to run this code, however it serves to make it look slightly more readable. This is the code without any touchups:
 
     0x0 ADD EXP 10 MUL 4 DIV EXP 2 2 8 DIV SUB 9 4 DIV MUL 8 0.32 18
     
