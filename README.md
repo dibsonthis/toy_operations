@@ -1,3 +1,9 @@
+# EXAMPLE
+    0x0 ADD ((EXP 10 (MUL 4 (DIV (EXP 2 2) 8))) (DIV (SUB 9 4) (DIV (MUL 8 0.32) 18)))
+    
+The above code equates to 135.15625 and is stored in memory address 0x0 in our faux 16-bit memory
+
+
 # OVERVIEW
 
 This is a toy "assembly" like language created in Python. All you have to do is change the code below to make calculations and changes to the 16-bit "memory". Here's a quick overview:
