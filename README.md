@@ -36,9 +36,11 @@ Eg. <b>0x1 ADD 0x0 (MUL 5 (DIV 10 2))</b> (This inserts the result of [the value
 
 # NON MATHEMATICAL OPERATIONS
 
-INS (Inserts a number into memory) // Eg. <b>0x0 INS 15</b> or <b>0x1 INS 0x0</b> (The address or value after INS is inserted to the address before INS)
-DEL (Deletes address value) // Eg. <b>DEL 0x0 0x1 0x2</b> (Multiple address values can be deleted at once)
-SHOW MEM (Prints current state of memory)
+<b>INS</b> (Inserts a number into memory) // Eg. <b>0x0 INS 15</b> or <b>0x1 INS 0x0</b> (The address or value after INS is inserted to the address before INS)
+
+<b>DEL</b> (Deletes address value) // Eg. <b>DEL 0x0 0x1 0x2</b> (Multiple address values can be deleted at once)
+
+<b>SHOW MEM</b> (Prints current state of memory)
 
 # THE CODE
 The code featured in the source inserts 12 in 0x0, adds the value of 0x0 * the value of 0x0 and the value of 0x0 to the power of the value of 0x0 and inserts that into 0x1, deletes the value of 0x0 to free space, inserts the value of 0x1 to 2x1 and then prints the state of the memory
